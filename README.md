@@ -28,7 +28,7 @@ BOM
 | PG7 Gland Nut | Your favorite vendor |
 | NeoPixel | Your favorite vendor |
 | Mains inlet | I used a leftover one from a printer |
-| Microfit 3.0 for CAN wire | Your favorite vendor |
+| Microfit 3.0 for CAN wire | 6 pin is used in CAD - Your favorite vendor |
 | CAN wires | Your favorite vendor |
 
 The build is straight forward. There's enough room to fish wires to the NeoPixel and the SHT21 through the main body. Leave some slack. Direct solder to the SHT and the NeoPixel. 
