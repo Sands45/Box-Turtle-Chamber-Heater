@@ -8,7 +8,9 @@ For Onshape Users:
 
 Basic goal of this project is to have a remote accessible chamber heater for the Box Turtle. So it will use Klipper as the OS and Mainsail as the main interface. 
 
-The macro is pretty simple. It's a basic heat soak macro to keep the heater on and at a stable target temp for 25 hrs (as a default). A NeoPixel LED with LED_EFFECTS provides basic status. Possible to use simpler LED controls as well (but not provided). 
+The macro is pretty simple. It's a basic heat soak macro to keep the heater on and at a stable target temp for 25 hrs (as a default). A NeoPixel LED with LED_EFFECTS provides basic status. Possible to use simpler LED controls as well (but not provided in the code). Should be simple to adapt the simpler default NeoPixel code for basic colors to show status. 
+
+https://github.com/julianschill/klipper-led_effect
 
 BOM
 | Item  | Source |
