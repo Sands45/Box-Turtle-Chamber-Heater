@@ -33,7 +33,7 @@ BOM
 | Microfit 3.0 for CAN wire | 6 pin is used in CAD - Your favorite vendor |
 | CAN wires | Your favorite vendor |
 
-The build is straight forward. There's enough room to fish wires to the NeoPixel and the SHT21 through the main body. Leave some slack. Direct solder to the SHT and the NeoPixel. 
+The build is straight forward. There's enough room to fish wires to the NeoPixel and the SHT21 through the main body. Leave some slack. Direct solder to the SHT and the NeoPixel. SHT is held in with a M3 button head. The NeoPixel is a light press fit. 
 
 The heater pulls 100W so appropriate wires for that. Between the heater and the EBB36, plan on 5 amps max, so 22 AWG for the power. CAN signal can be 24 AWG. When in operation, it sits around 50% duty cycle at 70C heater and ~50C chamber. So 2-3 Amps for longer durations. 
 
