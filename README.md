@@ -18,7 +18,7 @@ BOM
 | 24V 100W heater | [Amazon Link](https://www.amazon.com/dp/B081P58S9L) |
 | 3950 Thermistor | For the heater |
 | 120*C thermal fuse | [Amazon Link](https://www.amazon.com/dp/B08HMTC5GW) |
-| HTUD Sensor | [Amazon Link](https://www.amazon.com/dp/B0CZTXQX2L) |
+| HTU21D Sensor | [Amazon Link](https://www.amazon.com/dp/B0CZTXQX2L) |
 | 24V power supply - 150 W min | Your favorite vendor |
 | 5V buck - a way to power a Pi | Your favorite vendor |
 | Rasp Pi | A three will work, but I used a 4b |
@@ -30,7 +30,7 @@ BOM
 | Microfit 3.0 for CAN wire | Your favorite vendor |
 | CAN wires | Your favorite vendor |
 
-The build is straight fowared. There's enough room to fish wires to the NeoPixel and the SHT21 through the main body. Leave some slack. Direct solder to the SHT and the NeoPixel. 
+The build is straight forward. There's enough room to fish wires to the NeoPixel and the SHT21 through the main body. Leave some slack. Direct solder to the SHT and the NeoPixel. 
 
 The heater pulls 100W so appropriate wires for that. Between the heater and the EBB36, plan on 5 amps, so 22 AWG for the power. CAN signal can be 24 AWG. 
 
