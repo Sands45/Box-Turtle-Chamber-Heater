@@ -40,5 +40,7 @@ Wire in the thermal fuse inline to one of the power feeds to the heater. There i
 
 Wire up the EBB with CAN, etc. Get klipper installed on the PI and bring up the IO2CAN hat. Kiauh is a great way to do this from a PiOS lite installation. 
 
+Note about the HTU21D / SHT21 sensors - there's a lot out there and they can be a pain in the ass to find the right combination of settings to use in the printer.cfg file. The one I used has been stable both in this and as a monitor for a filament dryer attached to another printer. Follow the Klipper resources guides for how to setup i2c and the assocated work there. 
+
 
 
