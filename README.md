@@ -33,7 +33,7 @@ BOM
 
 The build is straight forward. There's enough room to fish wires to the NeoPixel and the SHT21 through the main body. Leave some slack. Direct solder to the SHT and the NeoPixel. 
 
-The heater pulls 100W so appropriate wires for that. Between the heater and the EBB36, plan on 5 amps max, so 22 AWG for the power. CAN signal can be 24 AWG. When in operation, it sits around 50% duty cycle at 70C heater and ~50C chamber. 
+The heater pulls 100W so appropriate wires for that. Between the heater and the EBB36, plan on 5 amps max, so 22 AWG for the power. CAN signal can be 24 AWG. When in operation, it sits around 50% duty cycle at 70C heater and ~50C chamber. So 2-3 Amps for longer durations. 
 
 Stuff the 3950 into some vanes of the heater, I used a hex key to open them up just a bit. Should be a press fit. 
 
