@@ -43,6 +43,9 @@ Wire in the thermal fuse inline to one of the power feeds to the heater. There i
 
 Wire up the EBB with CAN, etc. Get klipper installed on the PI and bring up the IO2CAN hat. Kiauh is a great way to do this from a PiOS lite installation. 
 
+https://canbus.esoterical.online/ - for the EBB36
+https://github.com/bigtreetech/IO2CAN - IO2CAN git hub
+
 Note about the HTU21D / SHT21 sensors - there's a lot out there and they can be a pain in the ass to find the right combination of settings to use in the printer.cfg file. The one I used has been stable both in this and as a monitor for a filament dryer attached to another printer. Follow the Klipper resources guides for how to setup i2c and the assocated work there. 
 
 When you bring this up for intiial startup, check that the thermistor works and the fan turns on. (much like the startup process for a printer). When that all works, do a PID tune on the heater. Assuming you used the same heater, the PID levels should be pretty close. Then enable the code for the temp/humidity sensor and make sure that works. Then the NeoPixel. 
