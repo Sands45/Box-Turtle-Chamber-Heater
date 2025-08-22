@@ -39,7 +39,7 @@ The heater pulls 100W so appropriate wires for that. Between the heater and the 
 
 Stuff the 3950 into some vanes of the heater, I used a hex key to open them up just a bit. Should be a press fit. 
 
-Wire in the thermal fuse inline to one of the power feeds to the heater. There is a small gap to feed the thermistor and fuse wires into the heater elements. Those wires then feed down the hole to the EBB26. Run the wires around or under the blower. 
+Wire in the thermal fuse inline to one of the power feeds to the heater. There is a small gap to feed the thermistor and fuse wires into the heater elements. Those wires then feed down the hole to the EBB26. Run the wires around or under the blower. Leftover wires used for hotend heater cartridges is a good choice here. 
 
 Wire up the EBB with CAN, etc. Get klipper installed on the PI and bring up the IO2CAN hat. Kiauh is a great way to do this from a PiOS lite installation. 
 
