@@ -24,6 +24,7 @@ BOM
 | Rasp Pi | A three will work, but I used a 4b |
 | IO2CAN Hat | Your favorite vendor |
 | 4010 5v fan | Keep the Pi cool |
+| Klipper Expander | Optional to run a 24V fan for the Pi |
 | PG7 Gland Nut | Your favorite vendor |
 | NeoPixel | Your favorite vendor |
 | Mains inlet | I used a leftover one from a printer |
